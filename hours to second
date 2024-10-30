@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int hoursToSeconds(int hours);
+
+
+int main() {
+    cout << hoursToSeconds(2) << endl; 
+    return 0;
+}
+
+
+int hoursToSeconds(int hours) {
+    return hours * 3600;
+}
