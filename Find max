@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int findMax(int a, int b, int c);
+
+int main() {
+    cout << findMax(10, 20, 15) << endl; 
+    return 0;
+}
+
+
+int findMax(int a, int b, int c) {
+    return (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+}
