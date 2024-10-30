@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+
+void drawLine(int length);
+
+int main() {
+    drawLine(10); 
+    return 0;
+}
+
+void drawLine(int length) {
+    for (int i = 0; i < length; ++i) {
+        cout << "-"; // Print a dash
+    }
+    cout << endl; // Move to the next line
+}
