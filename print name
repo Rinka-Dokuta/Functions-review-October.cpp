@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+void printName(const string& name);
+ 
+
+int main() {
+    printName("Alice"); 
+    return 0;
+}
+
+void printName(const string& name) {
+    cout << "Hello, " << name << "!" << endl;
+}
